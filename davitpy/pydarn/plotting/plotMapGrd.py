@@ -81,8 +81,8 @@ class MapConv(object):
 
         import datetime
         import matplotlib.pyplot as plt
-        import pydarn.plotting.plotMapGrd
-        from utils import *
+        from davitpy.pydarn.plotting import plotMapGrd
+        from davitpy.utils import *
 
         fig = plt.figure()
         ax = fig.add_subplot(111)
